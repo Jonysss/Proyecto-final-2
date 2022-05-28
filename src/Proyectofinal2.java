@@ -416,7 +416,7 @@ String fechaSalida = "Introduzca la fecha final del periodo a comprobar (año-me
  System.out.println("No tenems reservas de recursos para este dia ");
             }
         } else {
-            System.out.println("No tenemos reservaciones de recursos este dia");
+            System.out.println("No tenemos reservaciones de recursos este dia de fecha");
         }
     }
     private static void reservasUsuariosPeriodo(Organizacion Organizacion) throws Exception{
